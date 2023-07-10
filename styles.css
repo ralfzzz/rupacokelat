@@ -2,6 +2,8 @@
     background-color: black;
 } */
 
+/* Carousels Style */
+
 #carouselExampleIndicators .carousel-item img{  
     object-fit: fill;
     object-position: center;
@@ -15,3 +17,38 @@
     }
 
 }
+
+/* Sticky Social Media Bar Styles */
+  /* tes */
+  /* Set the position of the shop CTA icon */
+#shop-cta {
+    position: fixed;
+    bottom: 20%;
+    right: 1.5%;
+    z-index: 9999;
+  }
+
+  /* Customize the shop CTA icon */
+  .shop-icon {
+    display: block;
+    width: 30px;
+    height: 50px;
+    object-fit: fill;
+    object-position: center;
+    overflow: hidden;
+  }
+  
+  @media only screen and (max-width: 600px) {
+        #shop-cta{
+            right: 5%;
+        }
+
+
+      /* Customize the shop CTA icon */
+      .shop-icon {
+          display: block;
+          width: 20px;
+          height: 30px;
+        }
+    }
+        
