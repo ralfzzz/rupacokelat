@@ -28,11 +28,15 @@
     z-index: 9999;
   }
 
+#shop-cta>a, #shop-cta>img{
+  margin-bottom: 5px;
+}
+
   /* Customize the shop CTA icon */
   .shop-icon {
     display: block;
-    width: 30px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     object-fit: fill;
     object-position: center;
     overflow: hidden;
@@ -41,14 +45,6 @@
   @media only screen and (max-width: 600px) {
         #shop-cta{
             right: 5%;
-        }
-
-
-      /* Customize the shop CTA icon */
-      .shop-icon {
-          display: block;
-          width: 20px;
-          height: 30px;
         }
     }
         
