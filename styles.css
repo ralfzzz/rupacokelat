@@ -23,7 +23,7 @@
   /* Set the position of the shop CTA icon */
 #shop-cta {
     position: fixed;
-    bottom: 20%;
+    bottom: 15%;
     right: 1.5%;
     z-index: 9999;
   }
@@ -47,4 +47,10 @@
             right: 5%;
         }
     }
+
+  .shop-icon.plus{
+    cursor: pointer;
+    background-color: #d9d9d979;
+    border-radius: 50%;
+  }
         
