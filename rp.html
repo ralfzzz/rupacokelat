@@ -23,6 +23,15 @@
     />
     <link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+    />
+    <style>
+      * {
+        font-family: Ubuntu;
+      }
+    </style>
   </head>
   <body>
     <!-- HEADER -->
@@ -149,8 +158,8 @@
     <!-- PRODUK -->
     <div class="container">
       <div id="baris" class="row mx-auto mt-3" style="font-family: Ubuntu">
-        <p class="h3 text-center" style="color: #876445">Produk</p>
-        <hr style="border: 1px solid #876445" />
+        <p class="h3 text-center mt-4" style="color: #876445">Produk</p>
+        <hr style="border: 1px solid #876445" class="mt-2" />
         <div class="col d-flex flex-wrap p-3">
           <div class="card mx-auto" style="width: 250px; height: 250px">
             <div
@@ -300,15 +309,15 @@
                   style="display: none; height: 200px; width: auto"
                 />
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 p-3">
                 <h2 style="color: #876445">Produk</h2>
-                <h5>
+                <h6>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aenean vitae venenatis purus, rutrum viverra diam. Quisque ac
                   sapien ultrices, pulvinar lectus sit amet, consectetur nisi.
                   Vivamus id placerat mi. Suspendisse lobortis nec diam nec
                   tincidunt.
-                </h5>
+                </h6>
                 <div id="hargaButton">
                   <button
                     type="button"
@@ -359,8 +368,8 @@
     <section id="slider">
       <div class="container">
         <div class="header">
-          <h2 class="testimoni-header"><b>Testimoni</b></h2>
-          <hr size="3px" />
+          <p class="h3 text-center" style="color: #876445">Testimoni</p>
+          <hr style="border: 1px solid #876445" />
         </div>
         <div class="slider">
           <div class="owl-carousel">
@@ -369,12 +378,12 @@
                 src="./images/EDITjoseph-gonzalez-iFgRcqHznqg-unsplash.jpg"
                 alt=""
               />
-              <div class="slider-card-text">
-                <p>
+              <div class="slider-card-text p-3">
+                <h6>
                   "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Ipsam temporibus quidem magni qui doloribus quasi natus
                   inventore nisi velit minima."
-                </p>
+                </h6>
               </div>
             </div>
             <div class="slider-card">
@@ -382,12 +391,12 @@
                 src="./images/EDITjoseph-gonzalez-iFgRcqHznqg-unsplash.jpg"
                 alt=""
               />
-              <div class="slider-card-text">
-                <p>
+              <div class="slider-card-text p-3">
+                <h6>
                   "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Ipsam temporibus quidem magni qui doloribus quasi natus
                   inventore nisi velit minima."
-                </p>
+                </h6>
               </div>
             </div>
             <div class="slider-card">
@@ -395,12 +404,12 @@
                 src="./images/EDITjoseph-gonzalez-iFgRcqHznqg-unsplash.jpg"
                 alt=""
               />
-              <div class="slider-card-text">
-                <p>
+              <div class="slider-card-text p-3">
+                <h6>
                   "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Ipsam temporibus quidem magni qui doloribus quasi natus
                   inventore nisi velit minima."
-                </p>
+                </h6>
               </div>
             </div>
           </div>
@@ -411,8 +420,8 @@
     <!--Tentang-->
     <div class="container">
       <div class="header">
-        <h2 class="tentang-header"><b>Tentang</b></h2>
-        <hr size="4px" />
+        <p class="h3 text-center" style="color: #876445">Tentang</p>
+        <hr style="border: 1px solid #876445" />
       </div>
       <div class="about-container">
         <div class="image">
@@ -423,8 +432,11 @@
           />
         </div>
         <div class="description">
-          <h3 class="header-content">Kenapa Memilih Coklat Kami?</h3>
-          <p class="description-content">
+          <p class="h5" style="color: #876445">
+            <b>Kenapa Memilih Coklat Kami?</b>
+          </p>
+          <!-- <h2 class="header-content">Kenapa Memilih Coklat Kami?</h3> -->
+          <h6 class="h6" style="color: #876445">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             dictum, nulla eu vehicula dictum, justo libero volutpat ante, sit
             amet iaculis justo ex id urna. Proin vel feugiat nulla. Aenean
@@ -434,12 +446,12 @@
             temporibus, esse ut quidem error ullam ea delectus ex consectetur
             architecto obcaecati perferendis molestiae quam, eius pariatur
             blanditiis consequatur.
-          </p>
+          </h6>
         </div>
       </div>
     </div>
-    <hr />
-    <footer>Copyright by Wepsait</footer>
+    <hr style="border: 1px solid #876445" />
+    <footer style="font-size: 16px">Copyright by Wepsait</footer>
 
     <!-- Shop Icons -->
     <div id="shop-cta">
@@ -544,20 +556,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <footer class="bg-white p-4 text-center">
-      <div
-        class="text-center"
-        style="
-          font-size: 12px;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-          color: #876445;
-        "
-      >
-        Copyright by wepsait
-      </div>
-    </footer> -->
   </body>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
