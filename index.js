@@ -51,8 +51,6 @@ if (window.navigator.userAgent.indexOf("Mobile") > -1) {
     })
 }
 
-
-
 // $("#shop-cross").click(function(){
 //     $("#shop-cross").attr("src", "/assets/img/shop.svg").attr("id","shop");
 // });
