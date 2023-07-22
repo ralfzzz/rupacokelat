@@ -32,19 +32,36 @@
         font-family: Ubuntu;
       }
     </style>
+    <style>
+      body {
+        color: rgb(83, 32, 32);
+        background-image: url(./images/bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .header {
+        margin: 30px 0;
+      }
+
+      .description {
+        text-align: justify;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
     <!-- HEADER -->
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container">
           <a href="#" class="navbar-brand mt-2 mb-2 ms-5">
             <img
               src="/assets/img/logo.png"
               alt="Rupa Cokelat"
               width="100 px"
               height="61.39"
-              class="d-inline-block align-text-top"
+              class="d-inline-block align-text-top justify-content-start"
             />
           </a>
           <button
@@ -418,7 +435,7 @@
     </section>
 
     <!--Tentang-->
-    <div class="container">
+    <!-- <div class="container">
       <div class="header">
         <p class="h3 text-center" style="color: #876445">Tentang</p>
         <hr style="border: 1px solid #876445" />
@@ -435,7 +452,6 @@
           <p class="h5" style="color: #876445">
             <b>Kenapa Memilih Coklat Kami?</b>
           </p>
-          <!-- <h2 class="header-content">Kenapa Memilih Coklat Kami?</h3> -->
           <h6 class="h6" style="color: #876445">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             dictum, nulla eu vehicula dictum, justo libero volutpat ante, sit
@@ -447,6 +463,39 @@
             architecto obcaecati perferendis molestiae quam, eius pariatur
             blanditiis consequatur.
           </h6>
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="header">
+        <h2 class="text-center">Tentang</h2>
+        <hr size="4px" />
+      </div>
+      <div class="row align-items-md-center">
+        <div class="col-md-3">
+          <div class="image">
+            <img
+              src="./images/jonny-caspari-sWvPvEVygkU-unsplash.jpg"
+              alt="About Us Image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="description">
+            <h3 class="text-content mt-3">Kenapa Memilih Coklat Kami?</h3>
+            <p class="text-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              dictum, nulla eu vehicula dictum, justo libero volutpat ante, sit
+              amet iaculis justo ex id urna. Proin vel feugiat nulla. Aenean
+              consectetur eget ipsum et ultrices. Nulla facilisi. Nullam feugiat
+              tortor eget facilisis euismod. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatibus tempore, totam
+              temporibus, esse ut quidem error ullam ea delectus ex consectetur
+              architecto obcaecati perferendis molestiae quam, eius pariatur
+              blanditiis consequatur.
+            </p>
+          </div>
         </div>
       </div>
     </div>
