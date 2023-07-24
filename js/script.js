@@ -27,10 +27,7 @@ $(document).ready(function () {
 });
 
 // SHOP ICONS
-// if (window.navigator.userAgent.indexOf("Mobile") > -1) {
-  // HIDING ELEMENTS
-  // $('.shop-icon').hide();
-  // $(".gfgpp").hide();
+
   $("#shop-cross").click(function(event){
       $(".shop-icon").slideToggle('linear');
       if (event.currentTarget.id == "shop-cross") {
@@ -38,7 +35,6 @@ $(document).ready(function () {
       } else {
           $("#shop").animate({opacity:'0'},'fast').attr("src", "./images/cross.svg").animate({opacity:'1'},'fast').attr("id","shop-cross");
       }
-      // console.log('tes');
   });
   
   
@@ -49,29 +45,7 @@ $(document).ready(function () {
       } else {
           $("#shop-cross").animate({opacity:'0'},'fast').attr("src", "./images/shop.svg").animate({opacity:'1'},'fast').attr("id","shop");
       }
-  })
-// } else {
-//   $("#shop").attr("src", "./images/cross.svg").attr("id","shop-cross");
-//   $("#shop-cross").click(function(event){
-//       $(".shop-icon").slideToggle('linear');
-//       if (event.currentTarget.id == "shop") {
-//           $("#shop").animate({opacity:'0'},'fast').attr("src", "./images/cross.svg").animate({opacity:'1'},'fast').attr("id","shop-cross");
-//       } else {
-//           $("#shop-cross").animate({opacity:'0'},'fast').attr("src", "./images/shop.svg").animate({opacity:'1'},'fast').attr("id","shop");
-//       }
-//       // console.log('tes');
-//   });
-  
-  
-//   $('.shop-icon.plus').click(function(event){
-//       $(".shop-icon").slideToggle('linear');
-//       if (event.currentTarget.id == "shop") {
-//           $("#shop").animate({opacity:'0'},'fast').attr("src", "./images/cross.svg").animate({opacity:'1'},'fast').attr("id","shop-cross");
-//       } else {
-//           $("#shop-cross").animate({opacity:'0'},'fast').attr("src", "./images/shop.svg").animate({opacity:'1'},'fast').attr("id","shop");
-//       }
-//   })
-// }
+  });
 
 // PRODUK MODAL JS
 $(".image-toggler").click(function () {

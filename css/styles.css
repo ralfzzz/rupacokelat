@@ -187,9 +187,9 @@ margin-bottom: 5px;
 
 body {
   color: rgb(83, 32, 32);
-  background-image: url(./images/bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/bg.png");
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 .header {
