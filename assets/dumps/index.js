@@ -5,6 +5,8 @@
 // $('.shop-icon').hide();
 
 
+
+// SHOP ICONS
 if (window.navigator.userAgent.indexOf("Mobile") > -1) {
     // HIDING ELEMENTS
     $('.shop-icon').hide();
@@ -50,6 +52,26 @@ if (window.navigator.userAgent.indexOf("Mobile") > -1) {
         }
     })
 }
+
+// PRODUK MODAL JS
+$(".image-toggler").click(function () {
+    $(".image-toggle").hide();
+    $($(this).attr("data-image-id")).show();
+});
+
+$(document).ready(function () {
+    $("#hargaButton1").click(function () {
+      $("#hargaCollaps").text("Rp.5000");
+    });
+    $("#hargaButton2").click(function () {
+      $("#hargaCollaps").text("Rp.8000");
+    });
+    $("#hargaButton3").click(function () {
+      $("#hargaCollaps").text("Rp.10000");
+    });
+});
+
+
 
 // $("#shop-cross").click(function(){
 //     $("#shop-cross").attr("src", "/assets/img/shop.svg").attr("id","shop");
