@@ -48,19 +48,58 @@ $(document).ready(function () {
   });
 
 // PRODUK MODAL JS
-$(".image-toggler").click(function () {
-  $(".image-toggle").hide();
-  $($(this).attr("data-image-id")).show();
-});
+    $(".image-toggler").click(function () {
+      $(".image-toggle").hide();
+      $($(this).attr("data-image-id")).show();
+    });
+    $(".image-toggler2").click(function () {
+      $(".image-toggle2").hide();
+      $($(this).attr("data-image-id")).show();
+    });
+    $(".image-toggler3").click(function () {
+      $(".image-toggle3").hide();
+      $($(this).attr("data-image-id")).show();
+    });
+    $(".image-toggler4").click(function () {
+      $(".image-toggle4").hide();
+      $($(this).attr("data-image-id")).show();
+    });
 
-$(document).ready(function () {
-  $("#hargaButton1").click(function () {
-    $("#hargaCollaps").text("Rp.5000");
-  });
-  $("#hargaButton2").click(function () {
-    $("#hargaCollaps").text("Rp.8000");
-  });
-  $("#hargaButton3").click(function () {
-    $("#hargaCollaps").text("Rp.10000");
-  });
-});
+    $(document).ready(function () {
+      $("#hargaButton1").click(function () {
+        $("#hargaCollaps").text("Rp.5000");
+      });
+      $("#hargaButton2").click(function () {
+        $("#hargaCollaps").text("Rp.8000");
+      });
+      $("#hargaButton3").click(function () {
+        $("#hargaCollaps").text("Rp.10000");
+      });
+      $("#hargaButton1md").click(function () {
+        $("#hargaCollapsmd").text("Rp.5000");
+      });
+      $("#hargaButton2md").click(function () {
+        $("#hargaCollapsmd").text("Rp.8000");
+      });
+      $("#hargaButton3md").click(function () {
+        $("#hargaCollapsmd").text("Rp.10000");
+      });
+      $("#hargaButton1mt").click(function () {
+        $("#hargaCollapsmt").text("Rp.5000");
+      });
+      $("#hargaButton2mt").click(function () {
+        $("#hargaCollapsmt").text("Rp.8000");
+      });
+      $("#hargaButton3mt").click(function () {
+        $("#hargaCollapsmt").text("Rp.10000");
+      });
+      $("#hargaButton1me").click(function () {
+        $("#hargaCollapsme").text("Rp.5000");
+      });
+      $("#hargaButton2me").click(function () {
+        $("#hargaCollapsme").text("Rp.8000");
+      });
+      $("#hargaButton3me").click(function () {
+        $("#hargaCollapsme").text("Rp.10000");
+      });
+    });
