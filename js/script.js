@@ -27,7 +27,6 @@ $(document).ready(function () {
 });
 
 // SHOP ICONS
-
   $("#shop-cross").click(function(event){
       $(".shop-icon").slideToggle('linear');
       if (event.currentTarget.id == "shop-cross") {
@@ -48,7 +47,6 @@ $(document).ready(function () {
   });
 
 // PRODUK MODAL JS
-
 $(".image-toggler").click(function () {
   $(".image-toggle").hide();
   $($(this).attr("data-image-id")).show();
@@ -146,3 +144,42 @@ $(document).ready(function () {
     $("#hargaCollaps3").text("Rp.112000 | 1kg");
   });
 });
+
+    $(document).ready(function () {
+      $("#hargaButton1").click(function () {
+        $("#hargaCollaps").text("Rp.5000");
+      });
+      $("#hargaButton2").click(function () {
+        $("#hargaCollaps").text("Rp.8000");
+      });
+      $("#hargaButton3").click(function () {
+        $("#hargaCollaps").text("Rp.10000");
+      });
+      $("#hargaButton1md").click(function () {
+        $("#hargaCollapsmd").text("Rp.5000");
+      });
+      $("#hargaButton2md").click(function () {
+        $("#hargaCollapsmd").text("Rp.8000");
+      });
+      $("#hargaButton3md").click(function () {
+        $("#hargaCollapsmd").text("Rp.10000");
+      });
+      $("#hargaButton1mt").click(function () {
+        $("#hargaCollapsmt").text("Rp.5000");
+      });
+      $("#hargaButton2mt").click(function () {
+        $("#hargaCollapsmt").text("Rp.8000");
+      });
+      $("#hargaButton3mt").click(function () {
+        $("#hargaCollapsmt").text("Rp.10000");
+      });
+      $("#hargaButton1me").click(function () {
+        $("#hargaCollapsme").text("Rp.5000");
+      });
+      $("#hargaButton2me").click(function () {
+        $("#hargaCollapsme").text("Rp.8000");
+      });
+      $("#hargaButton3me").click(function () {
+        $("#hargaCollapsme").text("Rp.10000");
+      });
+    });
