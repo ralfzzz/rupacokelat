@@ -200,3 +200,15 @@ body {
   text-align: justify;
   padding: 0;
 }
+
+/* HEADER */
+/* .header{
+  height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header{
+    height: 60px !important;
+  }
+
+} */
